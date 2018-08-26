@@ -1,0 +1,14 @@
+{
+  "name": "remove-import",
+  "version": "0.0.1",
+  "description": "Delete files that are not imported",
+  "main": "index.js",
+  "bin": {
+    "remove-import": "./index.js"
+  },
+  "author": "Fadi Khadra <fdkhadra@gmail.com> (https://github.com/fkhadra)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.17.1"
+  }
+}
