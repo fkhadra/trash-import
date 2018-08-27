@@ -82,7 +82,7 @@ program
           reportToCheck.push(directory);
 
           console.log(
-            '⚠️',
+            '⚠️ ',
             `Directory ${directory} could be removed`,
             '⚠️'
           );

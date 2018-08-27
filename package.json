@@ -1,13 +1,20 @@
 {
-  "name": "remove-import",
+  "name": "trash-import",
   "version": "0.0.1",
-  "description": "Delete files that are not imported",
+  "description": "Scan for unused files",
+  "author": "Fadi Khadra <fdkhadra@gmail.com> (https://github.com/fkhadra)",
   "main": "index.js",
   "bin": {
-    "remove-import": "./index.js"
+    "trash-import": "./index.js"
   },
-  "author": "Fadi Khadra <fdkhadra@gmail.com> (https://github.com/fkhadra)",
+  "bugs": {
+    "url": "https://github.com/fkhadra/trash-import/issues"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkhadra/trash-import.git"
+  },
   "dependencies": {
     "commander": "^2.17.1"
   }
